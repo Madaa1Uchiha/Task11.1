@@ -1,7 +1,7 @@
 from Counter import Counter
 
 
-class Clock:
+class Clock: # this creates the objects and handles tick logic and time formatting
     def __init__(self):
         self.seconds = Counter()
         self.minutes = Counter()

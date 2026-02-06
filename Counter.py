@@ -1,4 +1,4 @@
-class Counter:
+class Counter: #this is the is used to handle the counting logic for seconds, minutes, and hours in the Clock class
     def __init__(self):
         self.__count = 0
     

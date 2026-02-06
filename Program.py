@@ -2,7 +2,7 @@ from Clock import Clock
 from time import sleep
 
 
-def main():
+def main():    # this is the run execution of the program 
     clock = Clock()
 
     try:
