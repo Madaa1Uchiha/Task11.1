@@ -22,7 +22,7 @@ class Clock:
             if self.minutes.get_count() >= 60:
                 self.minutes.reset()
                 self.hours.increment()
-                if self.hours.get_count() >= 24:
+                if self.hours.get_count() >= 25:
                     self.hours.reset()
 
     def reset(self):
